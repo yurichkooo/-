@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center; 
+    color:chartreuse
+}
+
+nav {
+    border-top: 3px solid rgb(5, 199, 134);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(5, 199, 134);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(111, 12, 224);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.head_img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+h2 {
+    color: rgba(14, 226, 191, 0.877);
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.catalog a {
+    text-decoration: none;
+    color: rgb(11, 166, 228);
+    border-bottom: 1px dotted rgb(12, 69, 226);
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #ee0f0f, rgb(224, 193, 17), #bb902c);
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 10px double rgb(250, 4, 53);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+
+
+.product:hover::before {
+    opacity: 1;
+}
+
+.principles {
+    display: flex;
+    border-top: 5px solid navy;
+    border-bottom: 5px solid navy;
+    justify-content: space-between; 
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.principle {
+    width: 120px;
+}
+
+.question-answer {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.question {
+    color: rgb(28, 8, 211);
+}
+
+.qua-item::before {
+   
+    width: 10px;
+    height: 20px;
+    display: inline-block;
+}
+
+.slogan {
+    display: flex;
+    padding: 30px;
+    color: mediumblue;
+    margin-left: 150px;
+}
+
+.slogan_img {
+    padding: 10px;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+
+.slogan_text {
+    float:left;
+    color: mediumblue;
+    margin: 20px;
+    width: 300px;
+}
+
+.slogan_text::after {
+    content: url("/uploads/2021/03/slogan_0_1614961282.svg");
+    display: block;
+    width: 45px;
+    height: 10px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #C9F76F, #FFFF73, #67e667);
+    color: teal;
+    padding: 10px;
+    font-size: 20px;
+}
+ .product:hover::before{
+    transform: translateX(20px) translateY(160px);
+    transition: 1s ease-in;
+    opacity: 1;
+ }
+ .slogan_img img{
+    border-radius: 50%;
+ }
